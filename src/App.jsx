@@ -349,9 +349,9 @@ export default function App() {
           </div>
         </nav>
 
-        <div className="flex py-6">
+        <div className="flex py-20 mt-20">
           <div>
-            <div className="flex items-center">
+            <div className="flex items-center gap-3">
               <div className="bg-blue-100 border p-2 rounded-full">
                 <TbAtomOff className="text-orange-500" />
               </div>
