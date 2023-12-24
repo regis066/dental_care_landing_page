@@ -104,12 +104,14 @@ export default function App() {
         )}
       </div>
       <div className="border p-5 bg-gray-400 rounded-full">
+        <a href="#home">
         <FaArrowDownLong className="text-gray-600 animate-bounce" />
+        </a>
       </div>
 
       {/* HOME */}
 
-      <div className="flex flex-col w-[70%] min-h-screen bg-white drop-shadow-xl border rounded-xl px-10">
+      <div id="home" className="flex flex-col w-[70%] min-h-screen bg-white drop-shadow-xl border rounded-xl px-10">
         <nav className="flex justify-between mt-4">
           <div className="flex items-center">
             <button className="border border-black px-3 py-1.5 rounded-full">
@@ -135,7 +137,7 @@ export default function App() {
           </div>
         </nav>
 
-        <div className="flex flex-col justify-center items-center h-[80vh]">
+        <motion.div className="flex flex-col justify-center items-center h-[80vh]">
           <p className="text-[100px] absolute">OUR ADVANTAGES </p>
           <img
             src={image1}
@@ -177,7 +179,7 @@ export default function App() {
             alt="#"
             className="w-[300px] h-[40vh] object-cover absolute rounded-3xl"
           />
-        </div>
+        </motion.div>
         <footer className="flex items-center justify-between">
           <div>
             <p>
@@ -197,10 +199,12 @@ export default function App() {
           </div>
         </footer>
         <div className="flex justify-center animate-bounce">
+          <a href="#intro1">
           <FaArrowDownLong />
+          </a>
         </div>
       </div>
-      <div className="flex flex-col w-[70%] min-h-screen bg-white drop-shadow-xl border rounded-xl px-10">
+      <div id="intro1" className="flex flex-col w-[70%] min-h-screen bg-white drop-shadow-xl border rounded-xl px-10">
         <nav className="flex justify-between mt-4">
           <div className="flex items-center">
             <button className="border border-black px-3 py-1.5 rounded-full">
@@ -318,12 +322,14 @@ export default function App() {
           </div>
         </footer>
         <div className="flex justify-center animate-bounce">
+          <a href="#meet">
           <FaArrowDownLong />
+          </a>
         </div>
       </div>
 
       {/* MEET */}
-      <div className="flex flex-col w-[70%] min-h-screen bg-white drop-shadow-xl border rounded-xl px-10">
+      <div id="meet" className="flex flex-col w-[70%] min-h-screen bg-white drop-shadow-xl border rounded-xl px-10">
         <nav className="flex justify-between mt-4 items-start">
           <div className="flex items-center">
             <button className="border border-black px-3 py-1.5 rounded-full">
@@ -401,7 +407,7 @@ export default function App() {
               <img
                 src={image1}
                 alt=""
-                className="w-[700px] h-[400px] object-cover"
+                className="w-[700px] h-[400px] object-cover rounded-3xl"
               />
               <div className="absolute top-0 right-0 p-2 flex gap-1">
                 <div className="bg-white p-2 border rounded-full">
