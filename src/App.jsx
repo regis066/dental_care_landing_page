@@ -416,7 +416,7 @@ export default function App() {
               <img
                 src={image2}
                 alt=""
-                className="w-[700px] h-[400px] object-cover"
+                className="w-[700px] h-[400px] object-cover rounded-3xl"
               />
               <div className="absolute top-0 right-0 p-2 flex gap-1">
                 <div className="bg-white p-2 border rounded-full">
@@ -431,7 +431,7 @@ export default function App() {
               <img
                 src={image3}
                 alt=""
-                className="w-[700px] h-[400px] object-cover"
+                className="w-[700px] h-[400px] object-cover rounded-3xl"
               />
               <div className="absolute top-0 right-0 p-2 flex gap-1">
                 <div className="bg-white p-2 border rounded-full">
@@ -446,7 +446,7 @@ export default function App() {
               <img
                 src={image4}
                 alt=""
-                className="w-[700px] h-[400px] object-cover"
+                className="w-[700px] h-[400px] object-cover rounded-3xl"
               />
               <div className="absolute top-0 right-0 p-2 flex gap-1">
                 <div className="bg-white p-2 border rounded-full">
